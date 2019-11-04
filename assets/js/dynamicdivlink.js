@@ -61,8 +61,8 @@
         $("body").on('click',"#accomodation",function(){ 
             $('#mainDiv').load('accomodation.html');
         }); 
-         $("body").on('click',"#Equity_Diversity_and_Inclusion_Statement",function(){ 
-            $('#mainDiv').load('Equity_Diversity_and_Inclusion_Statement.html');
+         $("body").on('click',"#edi",function(){ 
+            $('#mainDiv').load('edi.html');
         }); 
         
         
