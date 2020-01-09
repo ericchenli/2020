@@ -44,6 +44,25 @@
       gtag('config', 'UA-112157657-1');
     </script>
 
+    <!-- -->
+    <script>
+      function eventFire(el, etype){
+        if (el.fireEvent) {
+          el.fireEvent('on' + etype);
+        } else {
+    var evObj = document.createEvent('Events');
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+      }
+    }
+        
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var id = url.searchParams.get("id");
+    eventFire(document.getElementById('id'), 'click')
+    
+    </script>
+        
     <!-- Dynamic div loading for links/navba -->
     <script src="http://code.jquery.com/jquery-1.4.min.js" type="text/javascript"></script>
     <script src="assets/js/dynamicdivlink.js"></script>
@@ -126,7 +145,6 @@
                                 <li><a id="participant-registration">Participant Registration</a></li>
                                 <li><a id="invitation-req">Invitation Letter Request</a></li>
                                 <li><a id="venue">Venue</a></li>
-                                
                                 <li><a id="edi">Statement on Equity, Diversity, and Inclusion</a></li>
                             </ul>
                         </li>
