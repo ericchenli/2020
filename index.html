@@ -44,22 +44,14 @@
       gtag('config', 'UA-112157657-1');
     </script>
 
-    <!-- -->
+    <!-- cm testing -->
     <script>
-      function eventFire(el, etype){
-        if (el.fireEvent) {
-          el.fireEvent('on' + etype);
-        } else {
-    var evObj = document.createEvent('Events');
-    evObj.initEvent(etype, true, false);
-    el.dispatchEvent(evObj);
-      }
-    }
-        
+    
     var url_string = window.location.href;
     var url = new URL(url_string);
     var id = url.searchParams.get("id");
-    eventFire(document.getElementById('id'), 'click')
+    document.write(id);
+    document.getElementById('id').click();    
     
     </script>
         
