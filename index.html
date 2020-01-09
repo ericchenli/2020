@@ -46,10 +46,13 @@
 
     <!-- cm testing -->
     <script>
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var id = url.searchParams.get("id");
-    document.getElementById('id').click();    
+    function deeplink() {
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      var id = url.searchParams.get("id");
+      document.getElementById('id').click();
+    }
+    deeplink();   
     </script>
         
     <!-- Dynamic div loading for links/navba -->
