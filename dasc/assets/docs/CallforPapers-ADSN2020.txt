@@ -1,6 +1,7 @@
 Call for Papers
 
-CallforPapers-ADSN2020.pdf
+Link to PDF Version:
+http://cyber-science.org/2020/dasc/assets/docs/CallforPapers-ADSN2020.pdf
 
 The Nineteenth International Workshop on Assurance in Distributed Systems and Networks (ADSN 2020)
 Calgary, Canada, June 22 - 26, 2020
