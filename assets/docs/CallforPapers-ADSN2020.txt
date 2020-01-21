@@ -33,3 +33,18 @@ Important Dates
 Paper Submission Deadline: March 1, 2020
 Acceptance Notification Date: April 1, 2020
 Camera-ready deadline: May 10, 2020
+
+General Co-Chairs 
+Tomohiro Otani, KDDI Research, Inc., Japan
+Yoshiaki Kakuda, Hiroshima City University, Japan
+
+Program Chair
+Junichi Funasaka, Hiroshima City University, Japan
+
+Vice Program Chairs
+Eiji Utsunomiya, KDDI Research, Inc., Japan
+Elisa Bertino, Purdue University, U.S.A.
+Felicita Di Giandomenico, ISTI-CNR, Italy
+
+Program Committee
+TBD
