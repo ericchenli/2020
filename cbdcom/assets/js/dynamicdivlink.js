@@ -9,6 +9,9 @@
         $("body").on('click',"#tutorial",function(){
                     $('#mainDiv').load('tutorial.html');
         });
+         $("body").on('click',"#news",function(){
+                    $('#mainDiv').load('news.html');
+        });
         
     });
 /*AUTHORS*/  
