@@ -12,7 +12,9 @@
          $("body").on('click',"#news",function(){
                     $('#mainDiv').load('news.html');
         });
-        
+    $("body").on('click',"#summer-school",function(){
+                    $('#mainDiv').load('summer-school.html');
+        });    
     });
 /*AUTHORS*/  
     $(document).ready(function(){
